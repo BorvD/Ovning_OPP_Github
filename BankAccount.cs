@@ -11,6 +11,8 @@ namespace Ovning_OPP_Github
         // Fältet för att lagra kontobalansen
         private int balance;
         public string whatAccountType;
+        public int deposit;
+        public int withdraw;
 
         // Konstruktor för att initiera kontot med ett startbelopp
         public BankAccount(int Balance)
@@ -24,6 +26,7 @@ namespace Ovning_OPP_Github
         {
             // Addera beloppet inom parantereserna till kontobalansen
             balance += amount;
+            deposit = amount;
         }
 
         // Metod för att ta ut pengar från kontot
@@ -31,6 +34,7 @@ namespace Ovning_OPP_Github
         {
             // Subtrahera beloppet inom parantereserna från kontobalansen
             balance -= amount;
+            withdraw = amount;
         }
 
         // Metod för att få fram kontobalansen
@@ -57,9 +61,9 @@ namespace Ovning_OPP_Github
         {
             // Skriver ut kontobalansen i konsolen
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine($"Deposit:{Deposit}");
+            Console.WriteLine($"Deposit:{deposit}");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"Withdraw: {Withdraw}");
+            Console.WriteLine($"Withdraw: {withdraw}");
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"Current balance: {balance}");
             Console.ForegroundColor = ConsoleColor.Cyan;

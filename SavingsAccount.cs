@@ -21,6 +21,5 @@ namespace Ovning_OPP_Github
             balance = Balance;
         }
 
-        
     }
 }

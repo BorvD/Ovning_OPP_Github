@@ -21,5 +21,17 @@ namespace Ovning_OPP_Github
             balance = Balance;
         }
 
+        // Metod för att visa kontotypen
+        public override void BankAccountType()
+        {
+            // Skriver ut kontotypen i konsolen
+            // Gör texten grön
+            Console.ForegroundColor = ConsoleColor.Green;
+            // Skriv ut kontotypen
+            Console.WriteLine("Savingsaccount:");
+            // Återställer textfärgen till vit
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
     }
 }

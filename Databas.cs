@@ -42,6 +42,7 @@ namespace Ovning_OPP_Github
             //newSavingsAccount.Withdraw();           // Fyll i hur mycket som tar ut ur konot
             //newSavingsAccount.ShowBalance();
 
+            // Ett välkomstmeddelande
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("Welcome to BörveBank! Here are all our Accounts:");
             Console.WriteLine("--------------");
@@ -141,7 +142,7 @@ namespace Ovning_OPP_Github
 
 
 
-
+            // Vissar att listan är slut
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("--------------");
             Console.WriteLine("--------------");

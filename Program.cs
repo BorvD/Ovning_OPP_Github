@@ -24,7 +24,7 @@
             // Sätter in 100 på sparkontot. Går att ändra och testa olika värden inom parenteserna
             newSavingsAccount.Deposit(100);
             // Tar ut 50 från sparkontot. Går att ändra och testa olika värden inom parenteserna
-            newSavingsAccount.Withdraw(50);
+            newSavingsAccount.Withdraw(500);
             // Visar den aktuella balansen på sparkontot
             newSavingsAccount.ShowBalance();
         }

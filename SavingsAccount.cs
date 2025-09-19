@@ -15,7 +15,7 @@ namespace Ovning_OPP_Github
 
 
         // Konstruktor för att initiera sparkontot med ett startbelopp
-        public SavingsAccount(int Balance) : base(Balance)
+        public void SavingsAccountBalance(int Balance)
         {
             // Sätt kontobalansen till det angivna startbeloppet
             balance = Balance;

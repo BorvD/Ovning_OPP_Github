@@ -21,7 +21,7 @@ namespace Ovning_OPP_Github
             // Ändra textfärgen till magneta
             Console.ForegroundColor = ConsoleColor.Magenta;
             // Skriv ut information om BankAccount
-            Console.WriteLine("Account info: This is a BankAccount. It has: 0,5% interest rates");
+            Console.WriteLine("Account info: It has 0,5% interest rates");
             // Återställ textfärgen till vit
             Console.ForegroundColor = ConsoleColor.White;
         }
@@ -36,7 +36,7 @@ namespace Ovning_OPP_Github
             // Ändra textfärgen till magenta
             Console.ForegroundColor = ConsoleColor.Magenta;
             // Skriv ut information om SavingsAccount
-            Console.WriteLine("Account info: This is a SavingsAccount. It has: 1,5% interest rates");
+            Console.WriteLine("Account info: It has 1,5% interest rates");
             // Återställ textfärgen till vit
             Console.ForegroundColor = ConsoleColor.White;
         }

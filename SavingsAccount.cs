@@ -26,7 +26,7 @@ namespace Ovning_OPP_Github
         {
             // Skriver ut kontotypen i konsolen
             // Gör texten grön
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Blue;
             // Skriv ut kontotypen
             Console.WriteLine("Savingsaccount:");
             // Återställer textfärgen till vit

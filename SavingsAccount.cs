@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Ovning_OPP_Github
 {
-    public class SavingsAccount
+    public class SavingsAccount : BankAccount
     {
+        private int balance;
 
+        public SavingsAccount(int Balance) : base(Balance)
+        {
+            balance = Balance;
+        }
     }
 }

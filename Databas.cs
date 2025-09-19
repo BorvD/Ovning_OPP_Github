@@ -88,17 +88,17 @@ namespace Ovning_OPP_Github
             newAccount.AccountName("d34d");  
             newAccount.BankAccountType();
             bankAccountInfo.AccountInfo();
-            newAccount.AccountBalance(58438);          
-            newAccount.Deposit(5739);                 
-            newAccount.Withdraw(4739);                
+            newAccount.AccountBalance(584);          
+            newAccount.Deposit(573);                 
+            newAccount.Withdraw(473);                
             newAccount.ShowBalance();
 
 
             newSavingsAccount.AccountName("ercdnrk");      
             newSavingsAccount.BankAccountType();
             savingsAccountInfo.AccountInfo();
-            newSavingsAccount.AccountBalance(7348);     
-            newSavingsAccount.Deposit(7538);            
+            newSavingsAccount.AccountBalance(734);     
+            newSavingsAccount.Deposit(753);            
             newSavingsAccount.Withdraw(0);           
             newSavingsAccount.ShowBalance();
 
@@ -106,7 +106,7 @@ namespace Ovning_OPP_Github
             newAccount.AccountName("Nemos hemliga konto");
             newAccount.BankAccountType();
             bankAccountInfo.AccountInfo();
-            newAccount.AccountBalance(5368);
+            newAccount.AccountBalance(536);
             newAccount.Deposit(0);
             newAccount.Withdraw(0);
             newAccount.ShowBalance();
@@ -115,17 +115,17 @@ namespace Ovning_OPP_Github
             newSavingsAccount.AccountName("rdhcey");
             newSavingsAccount.BankAccountType();
             savingsAccountInfo.AccountInfo();
-            newSavingsAccount.AccountBalance(75387);
-            newSavingsAccount.Deposit(5739);
-            newSavingsAccount.Withdraw(99999999);
+            newSavingsAccount.AccountBalance(757);
+            newSavingsAccount.Deposit(573);
+            newSavingsAccount.Withdraw(99);
             newSavingsAccount.ShowBalance();
 
 
             newAccount.AccountName("rhwjcb");
             newAccount.BankAccountType();
             bankAccountInfo.AccountInfo();
-            newAccount.AccountBalance(5483);
-            newAccount.Deposit(75934);
+            newAccount.AccountBalance(548);
+            newAccount.Deposit(759);
             newAccount.Withdraw(5734);
             newAccount.ShowBalance();
 
@@ -133,9 +133,9 @@ namespace Ovning_OPP_Github
             newSavingsAccount.AccountName("rg3ufd");
             newSavingsAccount.BankAccountType();
             savingsAccountInfo.AccountInfo();
-            newSavingsAccount.AccountBalance(65834);
-            newSavingsAccount.Deposit(5749);
-            newSavingsAccount.Withdraw(57934);
+            newSavingsAccount.AccountBalance(748);
+            newSavingsAccount.Deposit(579);
+            newSavingsAccount.Withdraw(579);
             newSavingsAccount.ShowBalance();
 
 

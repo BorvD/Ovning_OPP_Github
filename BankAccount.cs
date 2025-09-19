@@ -10,6 +10,7 @@ namespace Ovning_OPP_Github
     {
         // Fältet för att lagra kontobalansen
         private int balance;
+        private int startingBalance;
         public string whatAccountType;
         public int deposit;
         public int withdraw;
@@ -17,10 +18,11 @@ namespace Ovning_OPP_Github
 
 
         // Konstruktor för att initiera kontot med ett startbelopp
-        public void AccountBalance(int Balance)
+        public void AccountBalance(int amount)
         {   
             // Sätt kontobalansen till det angivna startbeloppet
-            balance = Balance;
+            balance = amount;
+            startingBalance = amount;
         }
 
         public void AccountName(string name)
@@ -70,6 +72,8 @@ namespace Ovning_OPP_Github
             // Skriver ut kontobalansen i konsolen
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine($"Account Name: {accountName}");
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine($"Starting balance: {startingBalance}");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"Deposit: {deposit}");
             Console.ForegroundColor = ConsoleColor.Green;

@@ -42,8 +42,12 @@ namespace Ovning_OPP_Github
             //newSavingsAccount.Withdraw();           // Fyll i hur mycket som tar ut ur konot
             //newSavingsAccount.ShowBalance();
 
-
-
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Welcome to BörveBank! Here are all our Accounts:");
+            Console.WriteLine("--------------");
+            Console.WriteLine("--------------");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("--------------");
 
 
             // För att köra BankAccount klassen
@@ -132,6 +136,18 @@ namespace Ovning_OPP_Github
             newSavingsAccount.Deposit(5749);
             newSavingsAccount.Withdraw(57934);
             newSavingsAccount.ShowBalance();
+
+
+
+
+
+
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("--------------");
+            Console.WriteLine("--------------");
+            Console.WriteLine("Fin");
+            Console.ForegroundColor = ConsoleColor.White;
+
 
         }
     }

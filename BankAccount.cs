@@ -68,6 +68,7 @@ namespace Ovning_OPP_Github
         public void ShowBalance()
         {
             // Skriver ut kontobalansen i konsolen
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine($"Account Name: {accountName}");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"Deposit: {deposit}");

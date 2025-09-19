@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ovning_OPP_Github
 {
-    internal class BankAccount
+    public class BankAccount
     {
         // Fältet för att lagra kontobalansen
         private int balance;
